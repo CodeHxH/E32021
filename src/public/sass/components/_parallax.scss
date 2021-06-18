@@ -1,0 +1,23 @@
+.parallax {
+	width: 100vw;
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+	background: url('../../images/templodelbosque.jpg') no-repeat center
+		center/cover;
+
+	.zelda {
+		position: absolute;
+		top: 400px;
+		right: 100px;
+		height: 800px;
+		z-index: 10;
+	}
+
+	.botw {
+		position: absolute;
+		top: 100px;
+		left: 100px;
+		height: 300px;
+	}
+}

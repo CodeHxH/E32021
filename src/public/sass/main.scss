@@ -1,0 +1,12 @@
+// Variable
+$padding: 2rem;
+
+// Components
+@import 'components/global';
+@import 'components/header';
+@import 'components/games';
+@import 'components/news';
+@import 'components/footer';
+@import 'components/parallax';
+// Responsive components
+@import 'components/responsive.components/tablet';

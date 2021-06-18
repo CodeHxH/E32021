@@ -1,0 +1,33 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 17px;
+	box-sizing: border-box;
+	color: #111111;
+}
+
+body {
+	background-color: #f2f2f2;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23b4b4b4' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.title {
+	font-size: 3rem;
+	font-weight: 800;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+	width: 100vw;
+	height: 100vh;
+	min-height: 800px;
+	background: url('../../images/header.jpg') no-repeat center;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}

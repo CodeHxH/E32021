@@ -1,0 +1,44 @@
+.particles {
+	position: relative;
+}
+
+.header__info {
+	position: absolute;
+	top: 25vh;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: $padding;
+
+	img {
+		transition: 0.5s;
+		max-width: 250px;
+		width: 100vw;
+		position: absolute;
+	}
+
+	img:hover {
+		max-width: 300px;
+	}
+
+	a {
+		position: absolute;
+		margin-top: 400px;
+
+		i {
+			transition: 0.5s;
+			font-size: 70px;
+			color: rgba(221, 221, 221, 0.575);
+			cursor: pointer;
+		}
+	}
+
+	a:hover {
+		i {
+			color: #fff;
+		}
+	}
+}
