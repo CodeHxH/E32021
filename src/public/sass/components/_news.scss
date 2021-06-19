@@ -19,6 +19,9 @@
 
 		img {
 			width: 100%;
+			min-height: 500px;
+			object-fit: cover;
+			object-position: right;
 			max-width: 1250px;
 			transition: 0.5s;
 			filter: brightness(50%);

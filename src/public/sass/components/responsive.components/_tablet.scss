@@ -1,12 +1,42 @@
+@media screen and (max-width: 1500px) {
+	.games {
+		.game__card {
+			margin: 0 1rem;
+		}
+	}
+}
+
 @media screen and (max-width: 790px) {
+	$padding: 1rem;
+
 	* {
 		font-size: 15px;
+	}
+
+	.header__info {
+		img:hover {
+			max-width: 250px;
+		}
+	}
+
+	.games {
+		padding: 0;
+
+		.game__card:hover {
+			transform: translateY(0);
+		}
 	}
 
 	.carousel {
 		padding: 1rem;
 		button {
 			display: none;
+		}
+	}
+
+	.news {
+		h2 {
+			margin: 2rem 0;
 		}
 	}
 }
