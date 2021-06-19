@@ -1,3 +1,4 @@
+// Games slider
 window.addEventListener('load', function () {
 	new Glider(document.querySelector('.glider'), {
 		slidesToShow: 4,
@@ -57,17 +58,20 @@ window.addEventListener('load', function () {
 	});
 });
 
+// Parallax
 var image = document.getElementsByClassName('zelda');
 new simpleParallax(image, {
 	delay: 0.6,
 	transition: 'cubic-bezier(0,0,0,1)',
 });
 
+// Scroll reveal
 ScrollReveal().reveal('.carousel');
 ScrollReveal().reveal('.title');
 ScrollReveal().reveal('.news__card');
 ScrollReveal().reveal('.parallax');
 
+// Particlejs settings
 particlesJS(
 	'particles-js',
 
